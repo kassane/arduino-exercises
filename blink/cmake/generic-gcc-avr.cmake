@@ -93,7 +93,7 @@ endif(NOT AVR_PROGRAMMER)
 # default MCU (chip)
 if(NOT AVR_MCU)
     set(
-            AVR_MCU atmega8
+            AVR_MCU atmega328p
             CACHE STRING "Set default MCU: atmega8 (see 'avr-gcc --target-help' for valid values)"
     )
 endif(NOT AVR_MCU)
