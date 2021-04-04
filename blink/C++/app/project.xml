@@ -1,0 +1,13 @@
+<library>
+  <repositories>
+    <repository><path>../ext/modm/repo.lb</path></repository>
+  </repositories>
+   <extends>modm:arduino-uno</extends>
+  <options>
+    <option name="modm:build:build.path">../build/arduino_uno</option>
+  </options>
+  <modules>
+    <module>modm:build:make</module>
+    <module>modm:docs</module>
+  </modules>
+</library>
