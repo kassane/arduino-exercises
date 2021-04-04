@@ -8,6 +8,5 @@
   </options>
   <modules>
     <module>modm:build:make</module>
-    <module>modm:docs</module>
   </modules>
 </library>
