@@ -1,3 +1,9 @@
 [submodule "blink/C++/ext/modm"]
 	path = blink/C++/ext/modm
 	url = https://github.com/modm-io/modm
+[submodule "blink/Zig/avr-arduino-zig"]
+	path = blink/Zig/avr-arduino-zig
+	url = https://github.com/FireFox317/avr-arduino-zig
+[submodule "blink/Rust/blink"]
+	path = blink/Rust/blink
+	url = https://github.com/avr-rust/blink/
